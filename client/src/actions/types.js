@@ -1,0 +1,9 @@
+export const GET_ITEMS = 'GET_ITEMS';
+export const ADD_ITEM = 'ADD_ITEMS';
+export const DELETE_ITEM = 'DELETE_ITEM';
+export const ITEMS_LOADING = 'ITEMS_LOADING';
+export const CHECK_CUSTOMER_EXIST = 'CHECK_CUSTOMER_EXIST';
+export const ADD_CUSTOMER = 'ADD_CUSTOMER';
+export const GET_CUSTOMERS = 'GET_CUSTOMERS';
+export const DELETE_CUSTOMER = 'DELETE_CUSTOMER';
+export const CUSTOMERS_LOADING = 'CUSTOMERS_LOADING';
