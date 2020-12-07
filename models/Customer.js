@@ -4,18 +4,18 @@ const Schema = mongoose.Schema;
 //Create Schema
 const customerSchema = new Schema({
     customerName: {
-        type: Text,
+        type: String,
         required: true
     },
     emailID: {
-        type: Text,
+        type: String,
         required: true
     },
     location: {
-        type: Text
+        type: String
     },
     date: {
-        type: date,
+        type: Date,
         default: Date.now
     }
 });
